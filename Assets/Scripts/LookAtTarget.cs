@@ -10,6 +10,7 @@ public class LookAtTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Rotate the world space marker to face the player
         transform.LookAt(target);
     }
 }

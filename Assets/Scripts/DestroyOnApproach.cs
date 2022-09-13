@@ -9,6 +9,7 @@ public class DestroyOnApproach : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // Destroy this object when the player approaches
         if (other.tag == playerTag)
             Destroy(gameObject);
     }
